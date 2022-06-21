@@ -1,0 +1,26 @@
+nav{
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 1rem;
+            &:hover{
+                background-color: brown;
+            }
+            a{
+                color: gray;
+                &:active{
+                    color: violet;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 850px){
+    nav{
+        ul{
+            flex-direction: column;
+        }
+    }
+}

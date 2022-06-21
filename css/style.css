@@ -1,0 +1,103 @@
+
+
+
+/* imagen home */
+/* .container{
+    max-width: 4000px;
+    
+} */
+.img-fluid {
+  padding: 0;
+  margin: 0; }
+
+
+
+.btn-primary {
+  font-size: small; }
+
+/* footer */
+.footer {
+  color: black;
+  height: 50px; }
+
+.logoFooter {
+  padding-left: 24px;
+  width: 100px;
+  height: 100px; }
+
+.contenedorFooter {
+  display: flex;
+  flex-direction: row; }
+
+.pruebaFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.redes {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.bi {
+  padding: 5px;
+  width: 30px;
+  height: 30px; }
+
+/* QUIENES SOMOS */
+.lead {
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2f2f2f;
+  background-color: gainsboro; }
+
+.text-start {
+  background-image: url(https://images.unsplash.com/photo-1524769490-6d12a683d9ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=835&q=80);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #2f2f2f;
+  height: 500px;
+  padding: 40px; }
+
+/* galeria */
+/* servicios */
+.servicios {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gainsboro;
+  padding: 25px; }
+
+.contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto; }
+
+.form-control {
+  background-color: gainsboro; }
+
+/* media query servicios */
+@media (max-width: 768px) {
+  .servicios {
+    flex-direction: column;
+    align-items: center; } }
+
+nav ul {
+  display: flex; }
+  nav ul li {
+    list-style: none;
+    padding: 1rem; }
+    nav ul li:hover {
+      background-color: brown; }
+    nav ul li a {
+      color: gray; }
+      nav ul li a:active {
+        color: violet; }
+
+@media (min-width: 850px) {
+  nav ul {
+    flex-direction: column; } }
